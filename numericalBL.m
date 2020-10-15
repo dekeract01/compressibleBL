@@ -1,11 +1,9 @@
 %% ------------------------------------------------------------------------
 % Numerical Solution of Similar Boundary Layer Equations.
-% engg419 advanced fluid mechanics
-%
-% SimilarBoundaryLayerSolution.m
 % 
-% author./ t.ala. 2019
-% university of liverpool.
+% 
+% author./ dekeract01
+% 
 % -------------------------------------------------------------------------
 clear all; close all; clc; warning off
 tic
