@@ -1,2 +1,4 @@
-# Numerical_Boundary_Layer
-Numerical solutions of various boundary layer equations. 
+# Numerical Solutions for boundary layer equations
+- Blasius
+- Falkner Skan
+- Compressible
