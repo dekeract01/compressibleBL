@@ -7,15 +7,7 @@
 % -------------------------------------------------------------------------
 clear all; close all; clc; warning off
 tic
-
-% figure colours
-cyan        = [0.2 0.8 0.8];
-brown       = [0.2 0 0];
-orange      = [1 0.5 0];
-blue        = [0 0.5 1];
-green       = [0 0.6 0.3];
-red         = [1 0.2 0.2];
-
+colorhandles; global cyan brown blue green red 
 %% The Blasius Boundary Layer on a Flat Plate at Zero Pressure Gradient.
 % Blasius Equation
 % f^{111} + f f^{11} = 0.
@@ -464,6 +456,18 @@ if strcmpi(whichone,'Stewartson')
 end
 
 end
+
+function colorhandles
+% figure colours
+global cyan brown orange blue green red 
+cyan        = [0.2 0.8 0.8];
+brown       = [0.2 0 0];
+orange      = [1 0.5 0];
+blue        = [0 0.5 1];
+green       = [0 0.6 0.3];
+red         = [1 0.2 0.2];
+end
+
 % -------------------------------------------------------------------------
 % the end ...
 % -------------------------------------------------------------------------
