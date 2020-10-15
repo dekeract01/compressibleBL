@@ -1,4 +1,4 @@
 # Numerical Solutions for boundary layer equations
-- Blasius
-- Falkner-Skan
-- Illingworth and Stewartson
+- Blasius : Flat Plate 
+- Falkner-Skan : Wedge
+- Illingworth and Stewartson : Compressible
